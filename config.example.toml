@@ -1,0 +1,11 @@
+# Send every 30 seconds
+interval_seconds = 30
+sab_url = "http://127.0.0.1:8080/api"
+sab_apikey = "SABNZBD_API_KEY"
+server_url = "https://your-server.example.com/api/"
+device_id = "DEVICE_ID_FROM_SERVER"
+public_key = """
+-----BEGIN PUBLIC KEY-----
+public_key
+-----END PUBLIC KEY-----
+"""
