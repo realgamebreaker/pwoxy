@@ -36,7 +36,7 @@ pub async fn handshake(
     handshake_url.set_path(&format!("{}handshake", handshake_url.path()));
 
     let request = HandshakeRequest {
-        client_name: "IronNZB-Proxy".to_string(),
+        client_name: "pwoxy".to_string(),
         client_version: env!("CARGO_PKG_VERSION").to_string(),
         device_id: device_id.to_string(),
         timestamp: chrono::Utc::now().to_rfc3339(),
