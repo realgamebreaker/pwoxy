@@ -4,8 +4,7 @@ Pwoxy isa proxy written in Rust to E2E-encrypt and forward the sabnzbd status to
 
 ## Prerequisites
 
-- Rust 1.75+ (via [rustup](https://rustup.rs))
-- Node.js 18+ (for the demo Next.js API)
+- Rust 1.75+ (via [rustup](https://rustup.rs)
 - OpenSSL (for generating RSA keys)
 
 ### Generate the Server RSA Key Pair
